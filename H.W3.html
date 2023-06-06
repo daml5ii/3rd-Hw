@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Types Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="email"],
+        input[type="number"],
+        input[type="range"],
+        input[type="search"],
+        input[type="image"],
+        input[type="week"],
+        input[type="url"],
+        input[type="datetime-local"],
+        input[type="month"],
+        input[type="time"] {
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        input[type="image"] {
+            padding: 0;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <label for="hidden" style="color: #F44336;">Hidden Input:</label>
+    <input type="hidden" id="hidden" name="hidden">
+    <br>
+
+    <label for="tel" style="color: #E91E63;">Telephone Input:</label>
+    <input type="tel" id="tel" name="tel">
+    <br>
+
+    <label for="email" style="color: #9C27B0;">Email Input:</label>
+    <input type="email" id="email" name="email">
+    <br>
+
+    <label for="number" style="color: #673AB7;">Number Input:</label>
+    <input type="number" id="number" name="number">
+    <br>
+
+    <label for="range" style="color: #3F51B5;">Range Input:</label>
+    <input type="range" id="range" name="range">
+    <br>
+
+    <label for="search" style="color: #2196F3;">Search Input:</label>
+    <input type="search" id="search" name="search">
+    <br>
+
+    <label for="image" style="color: #00BCD4;">Image Input:</label>
+    <input type="image" id="image" name="image" src="image.jpg" alt="Submit">
+    <br>
+
+    <label for="week" style="color: #4CAF50;">Week Input:</label>
+    <input type="week" id="week" name="week">
+    <br>
+
+    <label for="url" style="color: #FF9800;">URL Input:</label>
+    <input type="url" id="url" name="url">
+    <br>
+
+    <label for="datetime-local" style="color: #FF5722;">DateTime Local Input:</label>
+    <input type="datetime-local" id="datetime-local" name="datetime-local">
+    <br>
+
+    <label for="month" style="color: #CDDC39;">Month Input:</label>
+    <input type="month" id="month" name="month">
+    <br>
+
+    <label for="time" style="color: #795548;">Time Input:</label>
+    <input type="time" id="time" name="time">
+    <br>
+
+    <input type="submit" value="Submit" style="background-color: #FFC107;">
+</form>
+</body>
+</html>
